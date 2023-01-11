@@ -1,0 +1,61 @@
+.html {
+    
+}
+
+
+.container {
+    
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    
+}
+
+.encabezado {
+    display: flex;
+    background-color: aquamarine;
+    padding: px;
+    gap: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 450px;
+    height: 450px;
+}
+
+.titulos {
+    display: flex;
+    
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.contenedor2 {
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.info-izq {
+    width: 1500px;
+    background-color: gray;
+    padding-top: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.info-der {
+    padding: 40px;
+
+}
+
+
+
+

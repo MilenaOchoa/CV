@@ -1,0 +1,92 @@
+body{
+    margin:0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    
+}
+
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+nav .navder{
+    width: 250px;
+    height: auto;
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    align-items: center;
+    
+
+}
+.navder a{
+    margin-right: 10px;
+    color: #000001;
+    padding-right: 8px;
+
+}
+
+li img{
+    height:30px;
+    width:30px;
+}
+
+.navder .menuicono{
+    border-radius: 30%;
+    margin-left: 10px;
+}
+
+main{
+    margin-top: 100px;
+    text-align: center;
+}
+main .main-logo{
+    width: 530px;
+    margin: 0 auto;
+margin-bottom: 35px;
+}
+
+main .main-logo img{
+    width: 272px; 
+    
+    
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+
+}
+
+main .search-icon{
+    height: 50px;
+    width: 20px;
+}
+
+.main-buttons{
+    padding-top: 20px;
+    margin: 10px;
+    
+}
+
+button{
+    box-shadow: none;
+    border-color: aliceblue;
+    border-radius: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+

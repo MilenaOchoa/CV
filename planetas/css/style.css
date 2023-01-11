@@ -1,0 +1,74 @@
+.contenedor {
+    background-image: url("../imagenes/Andromeda.jpg") ;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 60px;
+    display: flex;
+    height: 550px;
+    justify-content: space-around; /*todos tienen espacio igual alrededor de si mismos*/
+    align-items: top;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+img {
+    height: 80px;
+    width: 80px;
+}
+
+
+
+.planeta {
+    font-size: 15px;
+    display: flex;
+    height: 200px;
+    width: 160px;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;   
+    border: 0px;
+    margin: 0px;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.titulo{
+    font-size: 10px;
+    width: 80px;
+    
+    position: relative;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+
+.titulo h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+#tierra {
+    background-color: brown;
+}
+
+#venus {
+    background-color: blueviolet;
+}
+#júpiter {
+    background-color: cornflowerblue;
+}
+#urano {
+    background-color: burlywood;
+}
+#saturno {
+    background-color:pink;
+    
+}
+#neptuno {
+    background-color: rgb(9, 61, 77);
+}
+#marte {
+    background-color: rgb(123, 184, 25);
+}
+
